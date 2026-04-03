@@ -2,17 +2,22 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+     background-color: #84e1ad;
 }
 header{
     padding-top: 7px;
     width: 100%;
     background-image: linear-gradient(#36c174, #2b985b, #1a5c38);
 }
-header h1,p{
+header>h1{
    
    text-align: center;
    color: white;
    
+}
+header>P{
+    color: white;
+    text-align: center;
 }
 header h1{
     
@@ -36,3 +41,16 @@ nav>a:hover{
     background-color: #449c6c;
     border-radius: 5px;
 }
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-top: -20px;
+   
+   
+}
+main img{
+    width: 100%;
+}
+
