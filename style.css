@@ -58,11 +58,7 @@ main img{
 main iframe{
     width: 100%;
 }
-main div{
-    background-color: #1a5c38;
-    padding: 10px;
-    margin: auto;
-}  
+
 main section{
     background-color: #36c174;
     padding: 10px;
@@ -78,7 +74,7 @@ footer{
 }
 @media(max-width:800px){
     nav a{
-        font-size: 15px;
+        font-size: 14px;
         padding: 7px;
     }
 }
